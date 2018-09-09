@@ -1,0 +1,49 @@
+.strength-background-image {
+  background-image: url("https://media.defense.gov/2013/Feb/01/2000079529/-1/-1/0/130201-F-BS330-003.JPG");
+  /* background-attachment: fixed; */
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  align-self: center;
+  margin-top: 25px;
+  object-fit: cover;
+}
+.spacing-image {
+  background-image: url("https://www.drvondawright.com/wp-content/uploads/2015/08/woman-running-2.jpg");
+  /* background-attachment: fixed; */
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  align-self: center;
+  margin-top: 25px;
+  object-fit: cover;
+}
+
+.strength-instructions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.strength-instructions-title {
+  text-align: center;
+  align-self: center;
+  font-size: 65px;
+  font-weight: bold;
+  flex: 1;
+}
+
+.strength-instructions-paragraph {
+  font-size: 25px;
+  margin-right: 25px;
+  letter-spacing: 2px;
+  /* text-align: center; */
+  line-height: 35px;
+  flex: 1;
+}

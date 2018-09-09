@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom'
 import store from './store'
-import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Strength from './components/Strength'
 import { Provider } from 'react-redux'

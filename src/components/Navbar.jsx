@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react"
 import { Link } from 'react-router-dom'
 import '../styles/Navbar.css'
 
 const Navbar = () => {
   return(
-    <div className="navbar-container">
+    <div className="wow fadeIn delay-2s navbar-container">
       <Link to="/"><div className="navbar-title">FIND YOUR FITNESS</div></Link>
       <div className="navbar-categories">
         <Link to="/"><div className="navbar-category">HOME</div></Link>
@@ -17,5 +17,6 @@ const Navbar = () => {
     </div>
   )
 }
+
 
 export default Navbar

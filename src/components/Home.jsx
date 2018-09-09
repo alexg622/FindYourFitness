@@ -5,15 +5,24 @@ import '../styles/Home.css'
 class Home extends React.Component {
   constructor(){
     super()
+    this.state = {
+
+    }
+    this.getMargin = this.getMargin.bind(this)
     this.scrollToAbout = this.scrollToAbout.bind(this)
   }
 
   componentDidMount(){
+    let marginTop = this.getMargin()
+    this.setState({marginTop: marginTop})
+  }
 
+  getMargin(){
+    let navbar = document.querySelector('.home-navbar')
+    return navbar.offsetTop
   }
 
   scrollToAbout(){
-    let finalImage = document.querySelector('.home-final-image')
     let about = document.querySelector('.home-about-container')
     window.scrollTo({top: ((about.scrollHeight) + about.scrollHeight/2), behavior: 'smooth'})
   }
@@ -26,7 +35,7 @@ class Home extends React.Component {
             <Link to="/"><div className="home-title">FIND YOUR FITNESS</div></Link>
             <div className="home-categories">
               <Link to="/"><div className="home-category">HOME</div></Link>
-              <Link to="/strength"><div className="home-category">STRENGTH</div></Link>
+              <Link to={{pathname: "/strength", state: {margin: this.state.marginTop}}}><div className="home-category">STRENGTH</div></Link>
               <div className="home-category">CARDIO</div>
               <div className="home-category">WEIGHT LOSS</div>
               <div className="home-category">NUTRITION</div>
