@@ -70,7 +70,6 @@ class Home extends React.Component {
          <div className="home-last-words">
            "If you can make it through hell. Then you can live in heaven"
          </div>
-         <div className="home-quote-author">— Alex Gonzalez</div>
        </div>
     </div>
     )

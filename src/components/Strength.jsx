@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import '../styles/strength.css'
 import '../styles/strength_two.css'
 
+
 class Strength extends React.Component{
 
   componentDidMount(){
@@ -11,7 +12,7 @@ class Strength extends React.Component{
   }
 
   render(){
-    console.log(this.props.location.state);
+
     return(
       <div className="strength-container">
         <div className="strength-nav-container">
@@ -37,7 +38,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">pushups</div>
                     <div className="workout workout-endurance">jump squats</div>
                     <div className="workout workout-endurance">pull ups</div>
@@ -59,7 +60,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">dips</div>
                     <div className="workout workout-endurance">jump lunges</div>
                     <div className="workout workout-endurance">rows</div>
@@ -81,7 +82,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">pushups</div>
                     <div className="workout workout-endurance">jump squats</div>
                     <div className="workout workout-endurance">pull ups</div>
@@ -103,7 +104,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">dips</div>
                     <div className="workout workout-endurance">jump lunges</div>
                     <div className="workout workout-endurance">rows</div>
@@ -125,7 +126,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">pushups</div>
                     <div className="workout workout-endurance">jump squats</div>
                     <div className="workout workout-endurance">pull ups</div>
@@ -161,7 +162,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">pushups</div>
                     <div className="workout workout-endurance">jump squats</div>
                     <div className="workout workout-endurance">pull ups</div>
@@ -183,7 +184,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">dips</div>
                     <div className="workout workout-endurance">jump lunges</div>
                     <div className="workout workout-endurance">rows</div>
@@ -205,7 +206,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">pushups</div>
                     <div className="workout workout-endurance">jump squats</div>
                     <div className="workout workout-endurance">pull ups</div>
@@ -227,7 +228,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">dips</div>
                     <div className="workout workout-endurance">jump lunges</div>
                     <div className="workout workout-endurance">rows</div>
@@ -249,7 +250,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">pushups</div>
                     <div className="workout workout-endurance">jump squats</div>
                     <div className="workout workout-endurance">pull ups</div>
@@ -285,7 +286,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">pushups</div>
                     <div className="workout workout-endurance">jump squats</div>
                     <div className="workout workout-endurance">pull ups</div>
@@ -307,7 +308,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">dips</div>
                     <div className="workout workout-endurance">jump lunges</div>
                     <div className="workout workout-endurance">rows</div>
@@ -329,7 +330,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">pushups</div>
                     <div className="workout workout-endurance">jump squats</div>
                     <div className="workout workout-endurance">pull ups</div>
@@ -351,7 +352,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">dips</div>
                     <div className="workout workout-endurance">jump lunges</div>
                     <div className="workout workout-endurance">rows</div>
@@ -373,7 +374,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">pushups</div>
                     <div className="workout workout-endurance">jump squats</div>
                     <div className="workout workout-endurance">pull ups</div>
@@ -409,7 +410,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">pushups</div>
                     <div className="workout workout-endurance">jump squats</div>
                     <div className="workout workout-endurance">pull ups</div>
@@ -431,7 +432,7 @@ class Strength extends React.Component{
                         <div className="times-three"></div>
                     </div>
                   </div>
-                  <div className>
+                  <div>
                     <div className="workout-one workout-endurance">dips</div>
                     <div className="workout workout-endurance">jump lunges</div>
                     <div className="workout workout-endurance">rows</div>
@@ -490,6 +491,58 @@ class Strength extends React.Component{
           </div>
         </div>
         <div className="spacing-image"></div>
+        <div className='strength-title-exercises'>EXERCISES</div>
+        <div className="strength-links-container">
+          <div className='strength-link'>
+            <iframe src="https://www.youtube.com/embed/esQi683XR44" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div className="strength-link-exercise">Benchpress</div>
+          </div>
+          <div className='strength-link'>
+            <iframe title="video-one" src="https://www.youtube.com/embed/pnbQLDUJHkw" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div className="strength-link-exercise">Pushups</div>
+          </div>
+          <div className='strength-link'>
+            <iframe src="https://www.youtube.com/embed/pUJnPMjYLxU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div className="strength-link-exercise">Pushups Regression</div>
+          </div>
+          <div className='strength-link'>
+            <iframe src="https://www.youtube.com/embed/AHwJMCXiM60" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div className="strength-link-exercise">The Pull up</div>
+          </div>
+          <div className='strength-link'>
+            <iframe src="https://www.youtube.com/embed/kIWRXow-kqU" frameborder="3000" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div className="strength-link-exercise">The Pull up regression</div>
+          </div>
+          <div className='strength-link'>
+            <iframe src="https://www.youtube.com/embed/Oa5BEaQ9T6Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div className="strength-link-exercise">Dips</div>
+          </div>
+          <div className='strength-link'>
+            <iframe src="https://www.youtube.com/embed/6kALZikXxLc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div className="strength-link-exercise">Dips regression</div>
+          </div>
+          <div className='strength-link'>
+            <iframe src="https://www.youtube.com/embed/U4s4mEQ5VqU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div className="strength-link-exercise">Jump Squat</div>
+          </div>
+          <div className='strength-link'>
+            <iframe width="1309" height="486" src="https://www.youtube.com/embed/UXJrBgI2RxA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div className="strength-link-exercise">Jump Squat regression</div>
+          </div>
+          <div className='strength-link'>
+            <iframe src="https://www.youtube.com/embed/y7Iug7eC0dk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div className="strength-link-exercise">Jump lunge</div>
+          </div>
+          <div className='strength-link'>
+            <iframe src="https://www.youtube.com/embed/raQl44N_REc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div className="strength-link-exercise">Jump lunge regression</div>
+          </div>
+          <div className='strength-link'>
+            <iframe width="1309" height="486" src="https://www.youtube.com/embed/KVJRZaSK4_I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div className="strength-link-exercise">The row</div>
+          </div>
+        </div>
+        <div className="strength-ending-quote"></div>
       </div>
     )
   }
