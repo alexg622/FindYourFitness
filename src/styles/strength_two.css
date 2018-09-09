@@ -66,7 +66,7 @@
   align-self: center;
   font-size: 50px;
   font-weight: bold;
-  margin-top: 50px; 
+  margin-top: 50px;
 }
 
 iframe {
@@ -75,6 +75,11 @@ iframe {
   padding: 0;
   margin: 0;
   flex: 1;
+  transition: 2s;
+}
+
+.display-none {
+  display: none;
 }
 
 .strength-link-exercise {
@@ -84,9 +89,11 @@ iframe {
   align-self: center;
   text-align: center;
   width: 600px;
-  border-right: 4px solid black;
-  border-left: 4px solid black;
-  border-bottom: 4px solid black;
+  transition: background 1s;
+}
+
+.strength-link-exercise:hover {
+  cursor: pointer;
 }
 
 .strength-link-video {

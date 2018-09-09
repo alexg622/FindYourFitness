@@ -11,6 +11,29 @@ class Strength extends React.Component{
     .style.marginTop = String(this.props.location.state.margin) + "px"
   }
 
+  showVideo(e){
+    let placeHolder = e.target.parentNode.id
+    console.log(parseInt(placeHolder));
+    console.log(e.target.parentNode.parentNode);
+    if(parseInt(placeHolder) % 2 !== 0) {
+      if([...e.target.parentNode.children[0].classList].includes('display-none')) {
+        e.target.parentNode.children[0].classList.remove('display-none')
+        e.target.parentNode.parentNode.children[parseInt(placeHolder)].children[0].classList.remove('display-none')
+      } else {
+        e.target.parentNode.children[0].classList.add('display-none')
+        e.target.parentNode.parentNode.children[parseInt(placeHolder)].children[0].classList.add('display-none')
+      }
+    } else {
+      if([...e.target.parentNode.children[0].classList].includes('display-none')) {
+        e.target.parentNode.children[0].classList.remove('display-none')
+        e.target.parentNode.parentNode.children[parseInt(placeHolder)-2].children[0].classList.remove('display-none')
+      } else {
+        e.target.parentNode.children[0].classList.add('display-none')
+        e.target.parentNode.parentNode.children[parseInt(placeHolder)-2].children[0].classList.add('display-none')
+      }
+    }
+  }
+
   render(){
 
     return(
@@ -491,55 +514,63 @@ class Strength extends React.Component{
           </div>
         </div>
         <div className="spacing-image"></div>
-        <div className='strength-title-exercises'>EXERCISES</div>
+        <div className='strength-title-exercises'>EXERCISES HOW TO</div>
         <div className="strength-links-container">
-          <div className='strength-link'>
-            <iframe src="https://www.youtube.com/embed/esQi683XR44" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <div className="strength-link-exercise">Benchpress</div>
+          <div id="1" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/esQi683XR44" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">Benchpress</div>
           </div>
-          <div className='strength-link'>
-            <iframe title="video-one" src="https://www.youtube.com/embed/pnbQLDUJHkw" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
-            <div className="strength-link-exercise">Pushups</div>
+          <div id="2" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/HuuyDNGrCI8" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">Weighted Pull Up</div>
           </div>
-          <div className='strength-link'>
-            <iframe src="https://www.youtube.com/embed/pUJnPMjYLxU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <div className="strength-link-exercise">Pushups Regression</div>
+          <div id="3" className='strength-link'>
+            <iframe className="display-none" title="video-one" src="https://www.youtube.com/embed/pnbQLDUJHkw" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">Pushups</div>
           </div>
-          <div className='strength-link'>
-            <iframe src="https://www.youtube.com/embed/AHwJMCXiM60" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <div className="strength-link-exercise">The Pull up</div>
+          <div id="4" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/pUJnPMjYLxU" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">Pushups Regression</div>
           </div>
-          <div className='strength-link'>
-            <iframe src="https://www.youtube.com/embed/kIWRXow-kqU" frameborder="3000" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <div className="strength-link-exercise">The Pull up regression</div>
+          <div id="5" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/AHwJMCXiM60" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">The Pull Up</div>
           </div>
-          <div className='strength-link'>
-            <iframe src="https://www.youtube.com/embed/Oa5BEaQ9T6Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <div className="strength-link-exercise">Dips</div>
+          <div id="6" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/kIWRXow-kqU" frameBorder="3000" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">The Pull Up Regression</div>
           </div>
-          <div className='strength-link'>
-            <iframe src="https://www.youtube.com/embed/6kALZikXxLc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <div className="strength-link-exercise">Dips regression</div>
+          <div id="7" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/Oa5BEaQ9T6Y" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">Dips</div>
           </div>
-          <div className='strength-link'>
-            <iframe src="https://www.youtube.com/embed/U4s4mEQ5VqU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <div className="strength-link-exercise">Jump Squat</div>
+          <div id="8" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/6kALZikXxLc" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">Dips Regression</div>
           </div>
-          <div className='strength-link'>
-            <iframe width="1309" height="486" src="https://www.youtube.com/embed/UXJrBgI2RxA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <div className="strength-link-exercise">Jump Squat regression</div>
+          <div id="9" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/U4s4mEQ5VqU" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">Jump Squat</div>
           </div>
-          <div className='strength-link'>
-            <iframe src="https://www.youtube.com/embed/y7Iug7eC0dk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <div className="strength-link-exercise">Jump lunge</div>
+          <div id="10" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/UXJrBgI2RxA" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">Jump Squat Regression</div>
           </div>
-          <div className='strength-link'>
-            <iframe src="https://www.youtube.com/embed/raQl44N_REc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <div className="strength-link-exercise">Jump lunge regression</div>
+          <div id="11" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/y7Iug7eC0dk" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">Jump Lunge</div>
           </div>
-          <div className='strength-link'>
-            <iframe width="1309" height="486" src="https://www.youtube.com/embed/KVJRZaSK4_I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <div className="strength-link-exercise">The row</div>
+          <div id="12" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/raQl44N_REc" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">Jump Lunge Regression</div>
+          </div>
+          <div id="13" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/I2Mu3lpUfMY" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">The Row</div>
+          </div>
+          <div id="14" className='strength-link'>
+            <iframe className="display-none" title="iframe" src="https://www.youtube.com/embed/KVJRZaSK4_I" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <div onClick={this.showVideo.bind(this)} className="strength-link-exercise">The Row Regression</div>
           </div>
         </div>
         <div className="strength-ending-quote"></div>
