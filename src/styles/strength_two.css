@@ -9,6 +9,7 @@
   margin-top: 25px;
   object-fit: cover;
 }
+
 .spacing-image {
   background-image: url("https://www.drvondawright.com/wp-content/uploads/2015/08/woman-running-2.jpg");
   height: 600px;
@@ -89,7 +90,7 @@ iframe {
   align-self: center;
   text-align: center;
   width: 600px;
-  transition: color 1s; 
+  transition: color 1s;
 }
 
 .strength-link-exercise:hover {

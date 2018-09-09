@@ -11,7 +11,7 @@ const Navbar = ({ marginTop }) => {
         <Link to="/"><div className="navbar-category">HOME</div></Link>
           <Link to={{pathname: "/strength", state: {margin: marginTop}}}><div className="home-category">STRENGTH</div></Link>
           <Link to={{pathname: "/cardio", state: {margin: marginTop}}}><div className="home-category">CARDIO</div></Link>
-        <div className="navbar-category">WEIGHT LOSS</div>
+          <Link to={{pathname: "/weightLoss", state: {margin: marginTop}}}><div className="navbar-category">WEIGHT LOSS</div></Link>
         <div className="navbar-category">NUTRITION</div>
         <Link to="/"><div className="navbar-category">ABOUT</div></Link>
       </div>

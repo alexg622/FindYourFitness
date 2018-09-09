@@ -499,7 +499,7 @@ class Strength extends React.Component{
         </div>
         <div className="strength-background-image"></div>
         <div className="strength-instructions">
-          <div className="strength-instructions-title">INSTRUCTIONS</div>
+          <div className="strength-instructions-title">THE PLAN</div>
           <div className="strength-instructions-paragraph">
             Start off with a quick 5 minute warmup of your choice from
             jumping jacks to a light jog. Then perform 5 reps of the first two

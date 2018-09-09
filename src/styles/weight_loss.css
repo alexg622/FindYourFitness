@@ -1,0 +1,69 @@
+.weightLoss-splash {
+  display: flex;
+  align-items: center;
+  background-image: url("https://irp-cdn.multiscreensite.com/md/dmip/dms3rep/multi/mobile/vegetables-healthy-food.jpg");
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  object-fit: cover;
+}
+
+.weightLoss-splash-text {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  width: 700px;
+  margin-left: 50px;
+  line-height: 80px;
+}
+
+.weightLoss-instructions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.weightLoss-plan {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.plan-text {
+  width: 1000px;
+  font-size: 25px;
+  margin-right: 25px;
+  letter-spacing: 2px;
+  line-height: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.keto-image {
+  background-image: url("https://health.clevelandclinic.org/wp-content/uploads/sites/3/2018/01/GettyImages-667284760.jpg");
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  align-self: center;
+  margin-top: 25px;
+  object-fit: cover;
+}
+
+.diets-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.diets-title{
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

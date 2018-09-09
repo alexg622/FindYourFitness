@@ -8,7 +8,7 @@ class Cardio extends React.Component{
 
   componentDidMount(){
     if(this.props.location.state !== undefined) {
-      document.querySelector('.strength-nav-container')
+      document.querySelector('.cardio-nav-container')
       .style.marginTop = String(this.props.location.state.margin) + "px"
     }
   }
@@ -17,7 +17,7 @@ class Cardio extends React.Component{
 
     return(
       <div className="strength-container">
-        <div className="strength-nav-container">
+        <div className="cardio-nav-container">
           <Navbar marginTop={this.props.location.state.margin}/>
         </div>
         <div className="strength-calendar-container">
@@ -204,7 +204,7 @@ class Cardio extends React.Component{
         </div>
         <div className="strength-background-image"></div>
         <div className="strength-instructions">
-          <div className="strength-instructions-title">INSTRUCTIONS</div>
+          <div className="strength-instructions-title">THE PLAN</div>
           <div className="strength-instructions-paragraph">
             Start off slow and gradually increase how far you can run
             on your 14 minute and 6 minute run days. Slowly build up to
