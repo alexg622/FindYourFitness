@@ -9,6 +9,7 @@
   align-items: center;
 
   background-image: url("http://oceanbluefitness.com/wp-content/uploads/2016/02/kettle-bell-image.jpg");
+  background-attachment: fixed;
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -32,10 +33,14 @@
   font-weight: bold
 }
 
+.home-title:hover {
+  cursor: pointer;
+}
+
 .home-categories {
   display: flex;
   justify-content: space-around;
-  width: 600px;
+  width: 700px;
   color: white;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -72,11 +77,11 @@
   margin-top: 100px;
   width: 80%;
   align-self: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .home-about-title {
-  font-size: 50px;
+  font-size: 80px;
   color: black;
   font-weight: bold;
   align-self: center;
@@ -87,4 +92,36 @@
   color: black;
   width: 600px;
   line-height: 50px;
+}
+
+.home-final-image {
+  background-image: url("http://www.primatefit.com/uploads/9/7/5/9/9759591/9980836_orig.jpg");
+  height: 1000px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  object-fit: fill;
+}
+
+.home-last-words-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 550px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.home-last-words {
+  font-size: 80px;
+  align-self: flex-start;
+  font-weight: bold;
+  line-height: 80px;
+  width: 625px;
+}
+
+.home-quote-author {
+  font-size: 25px;
 }
