@@ -58,7 +58,7 @@
 .diets-container{
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
 .diets-title{
@@ -66,4 +66,58 @@
   font-weight: bold;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.diets-categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.diet-video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-top: 50px;
+}
+
+.video-text {
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  text-align: center;
+  transition: color 1s;
+}
+
+.video-text:hover {
+  cursor: pointer;
+  color: #fc0;
+}
+
+.final-image {
+  background-image: url("https://www.highreshdwallpapers.com/wp-content/uploads/2014/01/a-74-1024x768.jpg");
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  align-self: center;
+  margin-top: 25px;
+  object-fit: cover;
+  margin-bottom: 75px;
+}
+
+.final-quote {
+  font-size: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 75px;
+  font-weight: bold; 
+  width: 600px;
 }

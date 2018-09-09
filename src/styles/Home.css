@@ -41,7 +41,7 @@
 .home-categories {
   display: flex;
   justify-content: space-around;
-  width: 700px;
+  width: 650px;
   color: white;
   font-weight: bold;
   text-rendering: optimizeLegibility;

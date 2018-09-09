@@ -27,7 +27,7 @@ cursor: pointer;
 .navbar-categories {
 display: flex;
 justify-content: space-around;
-width: 700px;
+width: 650px;
 color: gray;
 font-weight: bold;
 text-rendering: optimizeLegibility;
