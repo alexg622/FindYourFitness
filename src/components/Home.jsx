@@ -36,7 +36,7 @@ class Home extends React.Component {
             <div className="home-categories">
               <Link to="/"><div className="home-category">HOME</div></Link>
               <Link to={{pathname: "/strength", state: {margin: this.state.marginTop}}}><div className="home-category">STRENGTH</div></Link>
-              <div className="home-category">CARDIO</div>
+              <Link to={{pathname: "/cardio", state: {margin: this.state.marginTop}}}><div className="home-category">CARDIO</div></Link>
               <div className="home-category">WEIGHT LOSS</div>
               <div className="home-category">NUTRITION</div>
               <div onClick={this.scrollToAbout} className="home-category">ABOUT</div>

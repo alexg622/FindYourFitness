@@ -7,8 +7,10 @@ import '../styles/strength_two.css'
 class Strength extends React.Component{
 
   componentDidMount(){
-    document.querySelector('.strength-nav-container')
-    .style.marginTop = String(this.props.location.state.margin) + "px"
+    if(this.props.location.state !== undefined) {
+      document.querySelector('.strength-nav-container')
+      .style.marginTop = String(this.props.location.state.margin) + "px"
+    }
   }
 
   showVideo(e){
@@ -39,7 +41,7 @@ class Strength extends React.Component{
     return(
       <div className="strength-container">
         <div className="strength-nav-container">
-          <Navbar />
+          <Navbar marginTop={this.props.location.state.margin} />
         </div>
         <div className="strength-calendar-container">
           <div className="strength-calendar-header">

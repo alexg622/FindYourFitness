@@ -89,11 +89,12 @@ iframe {
   align-self: center;
   text-align: center;
   width: 600px;
-  transition: background 1s;
+  transition: color 1s; 
 }
 
 .strength-link-exercise:hover {
   cursor: pointer;
+  color: #fc0;
 }
 
 .strength-link-video {

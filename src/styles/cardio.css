@@ -1,0 +1,21 @@
+.cardio-ending-quote {
+  font-size: 60px;
+  font-weight: bold;
+  width: 600px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.cardio-background-image {
+  background-image: url("https://media-assets-05.thedrum.com/cache/images/thedrum-prod/s3-news-tmp-111981-usain_bolt_0--2x1--940.jpg");
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  align-self: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  object-fit: cover;
+}
