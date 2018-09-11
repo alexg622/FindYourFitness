@@ -31,9 +31,9 @@ class WeightLoss extends React.Component{
               will without a doubt lose weight. For men, this means eating
               2,000 calories per day, and for women this means eating 1,500
               calories per day. How you choose to accomplish this is up to you.
-              Below are a few of many diets to choose from to help you reach
+              Below are just a few of many diets to choose from to help you reach
               your weight loss goals. Along with eating right be sure to stay
-              consistent with the cardio and strength plan, and continue
+              consistent with the cardio and strength training plans. Also, make sure to continue 
               your research to find a diet that fits your lifestyle.
             </div>
         </div>

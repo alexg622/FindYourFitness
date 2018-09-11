@@ -211,13 +211,13 @@ class Cardio extends React.Component{
             being able to run two miles in 14 minutes and one mile in
             6 minutes. Depending on where you are coming from it may seem
             like a hard goal to reach, but if you stay consistent you will
-            be able to reach your goals in no time. Below are instructions to
-            having proper running form as well as mobility exercises to improve
-            your running stride and prevent injuries. If running is not an option for you
+            be able to reach your goals in no time. Below are instructions for
+            proper running form, as well as mobility exercises to improve
+            your running stride and prevent injuries. If running is not an option for you, then you can
             go swimming, cycling, or hop on the elliptical for 14 minutes one day and 6 minutes
             the next. The cardio routines will be updated from month to month. Just like with
-            strength training its always good to take five days off at the end of the month so
-            that you can come into the next month much stronger.
+            strength training, its always good to take five days off at the end of the month so
+            that you can come into the next month much stronger, and fully recovered.
           </div>
         </div>
         <div className="spacing-image"></div>
