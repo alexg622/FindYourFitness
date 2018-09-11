@@ -3,24 +3,24 @@ This is a one page application built using React. It provides a home page with i
 
 
 
-![](https://github.com/alexg622/find_your_fitness/blob/master/public/images/home_splash.png?raw=true)
+![](https://github.com/alexg622/FindYourFitness/blob/master/docs/public/images/home_splash.png?raw=true)
 
 
 
 
-![](https://github.com/alexg622/find_your_fitness/blob/master/public/images/calendar.png?raw=true)
+![](https://github.com/alexg622/FindYourFitness/blob/master/docs/public/images/calendar.png?raw=true)
 
 
 
 
-![](https://github.com/alexg622/find_your_fitness/blob/master/public/images/videos.png?raw=true)
+![](https://github.com/alexg622/FindYourFitness/blob/master/docs/public/images/videos.png?raw=true)
 
 
 
 
-![](https://github.com/alexg622/find_your_fitness/blob/master/public/images/food_splash.png?raw=true)
+![](https://github.com/alexg622/FindYourFitness/blob/master/docs/public/images/food_splash.png?raw=true)
 
 
 
 
-![](https://github.com/alexg622/find_your_fitness/blob/master/public/images/food_plan.png?raw=true)
+![](https://github.com/alexg622/FindYourFitness/blob/master/docs/public/images/food_plan.png?raw=true)

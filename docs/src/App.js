@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route} from 'react-router-dom'
+import { HashRouter, Switch, Route} from 'react-router-dom'
 import store from './store'
 import Home from './components/Home'
 import Strength from './components/Strength'
@@ -12,14 +12,16 @@ class App extends Component {
   render() {
     return (
       <Provider store={ store }>
-        <Router>
-          <div className="App">
-            <Route exact path="/strength" component={ Strength }/>
-            <Route exact path="/cardio" component={ Cardio }/>
-            <Route exact path="/weightLoss" component={ WeightLoss }/>
-            <Route exact path="/" component={ Home }/>
-          </div>
-        </Router>
+        <HashRouter>
+          <Switch>
+            <div className="App">
+              <Route exact path="/strength" component={ Strength }/>
+              <Route exact path="/cardio" component={ Cardio }/>
+              <Route exact path="/weightLoss" component={ WeightLoss }/>
+              <Route exact path="/" component={ Home }/>
+            </div>
+          </Switch>
+        </HashRouter>
       </Provider>
     );
   }
