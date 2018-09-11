@@ -1,1 +1,1 @@
-This is a one page application built using React. It provides a home page with information summarizing what the application is about, a page providing strength building exercises, a page with cardio routines, and a page with weight loss information. 
+
