@@ -1,4 +1,16 @@
 This is a one page application built using React. It provides a home page with information summarizing what the application is about, a page providing strength building exercises, a page with cardio routines, and a page with weight loss information.
 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![](https://github.com/alexg622/find_your_fitness/blob/master/public/images/home_splash.png?raw=true)
+
+
+![](https://github.com/alexg622/find_your_fitness/blob/master/public/images/calendar.png?raw=true)
+
+
+![](https://github.com/alexg622/find_your_fitness/blob/master/public/images/videos.png?raw=true)
+
+
+![](https://github.com/alexg622/find_your_fitness/blob/master/public/images/food_splash.png?raw=true)
+
+
+![](https://github.com/alexg622/find_your_fitness/blob/master/public/images/food_plan.png?raw=true)
