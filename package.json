@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://github.com/alexg622/FindYourFitness/",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-redux": "^5.0.7",
@@ -14,11 +15,9 @@
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0"
   },
-  "devDependencies": {
-    "gh-pages": "^1.2.0"
-  },
+  "devDependencies": {},
   "scripts": {
-    "predepoloy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
