@@ -38,10 +38,17 @@ class Strength extends React.Component{
 
   render(){
 
+    let marginTop;
+    if (this.props.location.state === undefined){
+      marginTop = "31px"
+    } else {
+      marginTop = this.props.location.state.margin
+    }
+
     return(
       <div className="strength-container">
         <div className="strength-nav-container">
-          <Navbar marginTop={this.props.location.state.margin} />
+          <Navbar marginTop={marginTop} />
         </div>
         <div className="strength-calendar-container">
           <div className="strength-calendar-header">
