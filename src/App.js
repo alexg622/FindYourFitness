@@ -4,24 +4,21 @@ import Home from './components/Home'
 import Strength from './components/Strength'
 import Cardio from './components/Cardio'
 import WeightLoss from './components/WeightLoss'
-import { Provider } from 'react-redux'
 import './styles/App.css';
 
 class App extends Component {
   render() {
     return (
-      <Provider>
-        <HashRouter>
-          <Switch>
-            <div className="App">
-              <Route exact path="/strength" component={ Strength }/>
-              <Route exact path="/cardio" component={ Cardio }/>
-              <Route exact path="/weightLoss" component={ WeightLoss }/>
-              <Route exact path="/" component={ Home }/>
-            </div>
-          </Switch>
-        </HashRouter>
-      </Provider>
+      <HashRouter>
+        <Switch>
+          <div className="App">
+            <Route exact path="/strength" component={ Strength }/>
+            <Route exact path="/cardio" component={ Cardio }/>
+            <Route exact path="/weightLoss" component={ WeightLoss }/>
+            <Route exact path="/" component={ Home }/>
+          </div>
+        </Switch>
+      </HashRouter>
     );
   }
 }
