@@ -55,19 +55,19 @@ class Home extends React.Component {
            It doesn't have to take hours of your
            day for you to reach your goals. All it takes
            is a little work every day. The key to results
-           is consitency. Here you can find programs updated weekly that
+           is consistency. Here you can find programs updated weekly that
            you can stay consistent with to build strength,
            lose weight, and improve your health through easy
            to follow workout routines that only take 5-10 minutes
            of your time each day. Working out a little each day
            rather than a lot a few days per week will help
-           build habbits that will never be broken.
+           build habits that will never be broken.
          </div>
        </div>
        <div className="home-final-image"></div>
        <div className="home-last-words-container">
          <div className="home-last-words">
-           "If you can make it through hell. Then you can live in heaven"
+           "If you can make it through hell, then you can live in heaven"
          </div>
        </div>
     </div>

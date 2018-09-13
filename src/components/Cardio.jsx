@@ -229,7 +229,7 @@ class Cardio extends React.Component{
         <div style={{marginTop: "100px"}}className='strength-title-exercises'>RUNNING HOW TO</div>
         <div className="strength-links-container">
           <div id="1" className='strength-link'>
-            <iframe title="iframe" src="https://www.youtube.com/embed/fQ7ewHFw_I8" FrameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <iframe title="iframe" src="https://www.youtube.com/embed/fQ7ewHFw_I8" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
             <div className="strength-link-exercise">Proper Running Form</div>
           </div>
           <div id="2" className='strength-link'>

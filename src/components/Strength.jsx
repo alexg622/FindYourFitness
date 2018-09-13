@@ -15,8 +15,6 @@ class Strength extends React.Component{
 
   showVideo(e){
     let placeHolder = e.target.parentNode.id
-    console.log(parseInt(placeHolder));
-    console.log(e.target.parentNode.parentNode);
     if(parseInt(placeHolder) % 2 !== 0) {
       if([...e.target.parentNode.children[0].classList].includes('display-none')) {
         e.target.parentNode.children[0].classList.remove('display-none')
@@ -513,13 +511,13 @@ class Strength extends React.Component{
             exercises with a weight that you can get 8 reps with. Lastly, you will
             perform a circuit with the final three exercises running through the circuit
             three times with a 10 second rest between each exercise. Each time through the
-            circuit you will do 5 less than your max repitions of each exercise.
+            circuit you will do 5 less than your max repetitions of each exercise.
             For example: if you can do 50 push ups, then you will do 45. This workout should not
             take any longer than 10 minutes. The last week of the workout routine is to recover,
             so that when you come back to it next week you will be stronger and able to do more
             repetitions of each exercise than the month before.
             Below are links to videos on how to perform each
-            exersice, as well as regressions of each exercise. The workouts will be updated monthly.
+            exercise, as well as regressions of each exercise. The workouts will be updated monthly.
           </div>
         </div>
         <div className="spacing-image"></div>
