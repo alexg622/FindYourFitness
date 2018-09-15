@@ -5,6 +5,11 @@ import Strength from './components/Strength'
 import Cardio from './components/Cardio'
 import WeightLoss from './components/WeightLoss'
 import './styles/App.css';
+var http = require("http");
+
+setInterval(function() {
+    http.get("https://findyourfitness.herokuapp.com/#/");
+}, 30000)
 
 class App extends Component {
   render() {
